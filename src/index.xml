@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--元素 	说明
+set		book	part	chapter		article		sections 
+集		书		部		章				文章			节      -->
+<book>
+	<title>星空™物语</title>
+	<info><title>个人札记</title>
+		<author>Leave Meng</author>
+		<email>leaveboy@gmail.com</email>		
+		<copyright><year>2011</year><holder>星空™</holder></copyright>
+		<legalnotice>
+			<para>Permission to use, copy, modify and distribute
+				this DocBook and its accompanying documentation for any purpose and
+				without fee is hereby granted in perpetuity, provided that the above
+				copyright notice and this paragraph appear in all copies.</para>
+		</legalnotice>
+	</info>
+	<preface><title>授权</title>
+	Something for this
+	</preface>
+	<preface><title>致谢</title>
+	</preface>
+	<preface><title>序言</title>
+	</preface>
+	<part><title>Linux Software User Guide</title>
+		<chapter><title>编辑软件</title>
+			<sect1><title>VIM</title>
+				<sect2><title>CONFIG</title>
+					<itemizedlist> 
+						<listitem>
+							列表项内容，可以使用para、formalpara等
+						</listitem>
+						<listitem>
+							列表项内容，可以使用para、formalpara等
+						</listitem>
+						<listitem>
+							列表项内容，可以使用para、formalpara等
+						</listitem>
+					</itemizedlist>
+				</sect2>
+			</sect1>
+		</chapter> 
+	</part>  
+
+	<part><title>Windows Software User Guide</title>
+		<chapter><title>编辑软件</title>
+			<sect1><title>UE</title>
+				<sect2><title></title>
+					<note>note</note>
+					<tip>tip</tip>
+					<caution>caution</caution>
+					<important>important</important>
+					<warning>warning</warning>  `
+					<figure> 
+						<imagedata fileref="images/warning.png"/>
+					</figure>
+
+				</sect2>
+			</sect1>
+		</chapter> 
+	</part> 
+
+	<part><title>杂记</title>
+		<chapter><title>心情</title>
+			<sect1><title>感悟</title>
+				<sect2><title></title>
+				</sect2>
+			</sect1>
+		</chapter> 
+	</part> 
+</book>  
